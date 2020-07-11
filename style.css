@@ -1,0 +1,117 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+.wrapper {
+  background-color: azure;
+  height: 200px;
+  margin-top: 100px;
+}
+.hero {
+  min-height: 100vh;
+  background-image: url("hero.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 1px;
+}
+
+.blurb {
+  font-size: 2.5rem;
+}
+.barb {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.bro {
+  border-right: 1px solid white;
+  height: 30px;
+}
+.bruh {
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 10rem;
+  margin: 0px auto;
+  padding-bottom: 2rem;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#footer-links ul {
+  list-style-type: none;
+  padding-left: 0px !important;
+}
+#footer-links ul > li:first-child {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.contact {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .hero-tagline {
+    font-size: 5rem;
+  }
+  #footer-links ul {
+    padding-left: 30px !important;
+  }
+}
+@media (max-width: 320px) {
+  .hero-tagline {
+    font-size: 3rem;
+  }
+  .blurb {
+    font-size: 1.5rem;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .quote {
+    font-size: 1rem;
+  }
+  .quote1 {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  #newsimg {
+    margin: 2rem auto;
+  }
+  #myTab {
+    font-size: 0.7rem;
+    margin-bottom: 1.5rem;
+  }
+  #myTabContent {
+    font-size: 0.8rem;
+  }
+  .contact + p {
+    margin-top: 1rem;
+  }
+  .card {
+    size: inherit;
+  }
+}
